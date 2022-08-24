@@ -34,7 +34,7 @@ public class Account {
         } else if (amount > accountBalance) {
             throw new InsufficientFundException("Insufficient Account Balance");
         }
-        return 1;
+        return 0;
     }
 
 
